@@ -1,7 +1,7 @@
 .navbar.solid {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(27, 23, 23);
     transition: background-color 1s ease 0s;
-    box-shadow: 0 0 4px grey;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
 }
 /* carousel img */
 /* ukuran image tolong dibuat 1280x720 supaya bisa fullsize*/
@@ -9,7 +9,7 @@
     height:0px;
 }
 .carousel-item img{
-    margin-top: -120px;
+    margin-top: 0px;
     background-position: center;
 }
 .body{
@@ -27,7 +27,7 @@ hr{
     width: 100px;
 }
 .carousel-item {
-    height: 50%;
+    height: 100%;
 }
 
 .gallery{
@@ -53,9 +53,10 @@ hr{
 }
 
 /* media queries*/
-@media only screen and (max-width:1500px){
+/* @media only screen and (max-width:1500px){
 
-}
+} */
+
 @media only screen and (max-width:1199px){
     .carousel-caption h5{
         font-size: 20px;
@@ -65,13 +66,6 @@ hr{
     }
 }
 
-@media only screen and (max-width:991px){
-
-    .carousel-caption p{
-        font-size: 14px
-    }
-      
-}
 
 .map-responsive{
     overflow: hidden;
@@ -88,21 +82,23 @@ hr{
 }
 
 .bg1{
-    background-image: url("/Carouselimg/desain.jpg") ;
-    height: 100%;
+    /* background-image: url("/Carouselimg/desain.jpg") ;
+    height: 100%; */
     /* background-position: center; */
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg2{
-    background-image: url("/bg/bg2.jpg") ;
-    height: 100%;
+    /* background-image: url("/bg/bg2.jpg") ;
+    height: 100%; */
+    background-color:rgba(215, 253, 255, 0.514); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg3{
-    background-color: rgb(98, 99, 99);
+    background-color: rgb(255, 255, 255);
     /* background-image: url("/bg/bg3.jpg") ; */
     height: 100%;
     background-position: center;
@@ -116,5 +112,22 @@ hr{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(55, 59, 59);
+    background-color: rgb(0, 0, 0);
+}
+.contact hr{
+    width: 1100px;
+    background-color: rgb(0, 0, 0);
+
+}
+.produk hr{
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+}
+.about hr{
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+}
+.perbaikan hr{
+    width: 400px;
+    background-color: rgb(0, 0, 0);
 }
